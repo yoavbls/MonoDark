@@ -1,0 +1,22 @@
+{
+  "name": "MonoDark",
+  "publisher": "yoavbls",
+  "displayName": "MonoDark",
+  "description": "VSCode theme that combines the beauty of Monokai and the excellent syntax highlighting of Dark+",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MonoDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MonoDark-color-theme.json"
+      }
+    ]
+  }
+}
