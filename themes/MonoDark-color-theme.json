@@ -36,7 +36,7 @@
         "keyword.operator.logical.python",
         "keyword.operator.constructor",
         "keyword.operator.new",
-        "keyword.other.unit"
+        "punctuation.separator.key-value"
       ],
       "settings": {
         "foreground": "#d85560"
@@ -47,7 +47,8 @@
       "scope": [
         "constant.language.boolean",
         "constant.numeric",
-        "constant.language"
+        "constant.language",
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#9c7bff"
@@ -59,7 +60,8 @@
         "string",
         "meta.embedded.assembly",
         "support.type.property-name.css",
-        "support.type.vendored.property-name.css"
+        "support.type.vendored.property-name.css",
+        "meta.jsx.children"
       ],
       "settings": {
         "foreground": "#d0bf62"
@@ -77,7 +79,7 @@
     {
       "scope": ["variable.parameter"],
       "settings": {
-        "foreground": "#8bcbe3"
+        "foreground": "#a5cfde"
       }
     },
     {
@@ -110,7 +112,17 @@
       }
     },
     {
-      "scope": ["keyword.function"],
+      "scope": [
+        "keyword.function",
+        "keyword.type.go",
+        "keyword.func.go",
+        "keyword.interface.go",
+        "keyword.var.go",
+        "keyword.const.go",
+        "keyword.map.go",
+        "keyword.struct.go",
+        "keyword.channel.go"
+      ],
       "settings": {
         "foreground": "#54a5ec"
       }
@@ -139,10 +151,16 @@
       "name": "Types declaration and references",
       "scope": [
         "meta.return-type",
+        "meta.type.cast.expr",
+        "meta.type.new.expr",
+        "support.constant.math",
+        "support.constant.dom",
+        "support.constant.json",
+        "entity.other.inherited-class",
+        "entity.name.type",
         "support.class",
         "support.type",
         "entity.name.type",
-        // "entity.name.namespace",
         "entity.other.attribute",
         "entity.name.scope-resolution",
         "entity.name.class",
@@ -171,27 +189,21 @@
         "storage.type.object.array.groovy",
         "storage.type.primitive.array.groovy",
         "storage.type.primitive.groovy",
-        "keyword.map.go"
+        "support.type.python"
       ],
       "settings": {
-        // "foreground": "#4EC9B0"
         "foreground": "#3cb6c1"
       }
     },
     {
-      "name": "Types declaration and references, TS grammar specific",
+      "name": "Types Annotaions and Operators",
       "scope": [
-        "meta.type.cast.expr",
-        "meta.type.new.expr",
-        "support.constant.math",
-        "support.constant.dom",
-        "support.constant.json",
-        "entity.other.inherited-class",
-        "entity.name.type"
+        "keyword.operator.type.annotation",
+        "keyword.operator.optional",
+        "keyword.operator.type"
       ],
       "settings": {
-        // "foreground": "#4EC9B0"
-        "foreground": "#3cb6c1"
+        "foreground": "#8acdd2"
       }
     },
     {
@@ -205,34 +217,21 @@
         "entity.name.operator"
       ],
       "settings": {
-        // "foreground": "#C586C0"
         "foreground": "#ea4a5f"
       }
     },
     {
       "name": "Variable and parameter name",
       "scope": [
-        "variable",
         "meta.definition.variable.name",
         "support.variable",
-        "entity.name.variable"
+        "entity.name.variable",
+        "variable.other.constant",
+        "variable.other.enummember",
+        "support.type.object.module"
       ],
       "settings": {
         "foreground": "#c4c4c4"
-      }
-    },
-    {
-      "name": "Constants and enums",
-      "scope": ["variable.other.constant", "variable.other.enummember"],
-      "settings": {
-        "foreground": "#c4c4c4"
-      }
-    },
-    {
-      "name": "Object keys, TS grammar specific",
-      "scope": ["meta.object-literal.key"],
-      "settings": {
-        "foreground": "#7bdbf9"
       }
     },
     {
