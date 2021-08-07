@@ -3,8 +3,13 @@
 VSCode theme that combines the beauty of Monokai and the excellent syntax highlighting of Dark+ (Default theme)
 
 ## Install
-press `ctrl/command` + `shift` + `p` to launch the command palette then run.  
-```ext install one-monokai```
+
+This extension is available in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yoavbls.MonoDark)
+
+1. Press `Ctrl/⌘` + `Shift` + `P` to launch the command palette
+2. Then enter `Install Extension`
+3. Write `MonoDark`
+4. Select it or press Enter to install
 
 ## Screenshots
 

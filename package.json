@@ -2,8 +2,8 @@
   "name": "MonoDark",
   "publisher": "yoavbls",
   "displayName": "MonoDark",
-  "description": "VSCode theme that combines the beauty of Monokai and the excellent syntax highlighting of Dark+",
-  "version": "0.0.1",
+  "description": "A theme that combines the beauty of Monokai and the excellent syntax highlighting of Dark+",
+  "version": "0.0.3",
   "repository": "github:yoavbls/MonoDark",
   "icon": "images/vscode.png",
   "engines": {
