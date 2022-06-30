@@ -1,6 +1,9 @@
-# MonoDark
+# 🎨 MonoDark
 
 VSCode theme that combines the beauty of Monokai and the excellent syntax highlighting of Dark+ (Default theme)
+
+#### Preview
+[View on VSColors.com](https://www.vscolors.com/themes/1ecf1c41-f18f-4bbe-b1d9-a369ec56c5b3-74ee4e69)
 
 ## Install
 
