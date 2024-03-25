@@ -1,18 +1,11 @@
 {
   // "$schema": "vscode://schemas/color-theme",
   "name": "Dark Monokai",
-  "include": "./dark_vs.json",
+  "include": "./dark_modern.json",
   "colors": {
-    "titleBar.activeBackground": "#252525",
-    "tab.activeBorderTop": "#121212",
-    "activityBar.border": "#111111",
-    "activityBar.background": "#1a1a1a",
-    "sideBar.border": "#121212",
-    "sideBar.background": "#242424",
-    "sideBarSectionHeader.background": "#1f1f1f",
-    "sideBarSectionHeader.border": "#1f1f1f00",
+    "sideBar.background": "#1C1C1C",
     "editorLineNumber.foreground": "#ffffff27",
-    "editorIndentGuide.background": "#ffffff09",
+    "editorIndentGuide.background1": "#39393939",
     "tree.indentGuidesStroke": "#ffffff17",
     "peekViewEditor.background": "#79b0fc14",
     "diffEditor.insertedTextBackground": "#0fb53e14"
