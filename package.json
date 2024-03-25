@@ -1,23 +1,33 @@
 {
   "name": "MonoDark",
-  "publisher": "yoavbls",
+  "publisher": "YoavBls",
   "displayName": "MonoDark",
   "description": "A theme that combines the beauty of Monokai and the excellent syntax highlighting of Dark+",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "icon": "images/vscode.png",
   "author": {
     "name": "YoavBls",
     "email": "yoavbls@gmail.com"
+  },
+  "homepage": "https://github.com/yoavbls/MonoDark.git",
+  "sponsor": {
+    "url": "https://github.com/sponsors/yoavbls"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/yoavbls/MonoDark.git"
   },
   "engines": {
-    "vscode": "^1.56.0"
+    "vscode": "^1.43.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "monokai",
+    "modern"
   ],
   "contributes": {
     "themes": [
